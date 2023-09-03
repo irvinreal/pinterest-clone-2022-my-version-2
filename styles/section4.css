@@ -1,0 +1,97 @@
+.section4 {
+  background-color: rgb(255, 226, 235);
+  display: flex;
+}
+
+.section4-boxLeft {
+  width: 100%;
+  height: 100%;
+}
+.section4-boxLeft img {
+  width: 100%;
+  height: 100%;
+}
+
+.section4-boxLeft-img-1 {
+  position: absolute;
+  top: 117px;
+  left: 85px;
+  width: 215px;
+  height: 383px;
+  border-radius: 20px 20px 10px 10px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.box1-section4-img2 {
+  position: absolute;
+  bottom: 118px;
+  left: 50px;
+  width: 96px;
+  height: 96px;
+  border-radius: 15px;
+}
+
+.section4-boxLeft-description h2 {
+    position: absolute;
+    bottom: 125px;
+    left: 158px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section4-boxLeft-description p {
+  position: absolute;
+  bottom: 80px;
+  left: 135px;
+  width: 70px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.section4-boxRight {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.section4-boxRight h2 {
+  position: relative;
+  color: #C32F00;
+  font-size: 60px;
+  font-weight: bold;
+  width: 420px;
+  height: 240px;
+  text-align: center;
+}
+
+.section4-boxRight p {
+  color: #C32F00;
+  font-size: 24px;
+  font-weight: 400;
+  width: 420px;
+  height: 96px;
+  text-align: center;
+}
+
+.section4-boxRight button {
+  color: rgb(255, 226, 235);
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #C32F00;
+  border: none;
+  border-radius: 25px;
+  width: 93px;
+  height: 48px;
+}
+
+.section4-boxRight button:hover {
+  background-color: #e73b07;
+  cursor: pointer;
+}

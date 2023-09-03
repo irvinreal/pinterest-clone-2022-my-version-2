@@ -1,0 +1,231 @@
+
+.puntos-suspensivos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.section1-icono i {
+    position: relative;
+    top: 5vh;
+    color: rgb(8, 93, 250);
+}
+
+/* ----------------------------------------------------- */
+
+
+
+
+/* ------  Aquí comienza la Section 5  ------ */
+
+.section5 {
+    position: relative;
+    /* width: 100vw; */
+    max-height: 100vh;
+    /* box-sizing: border-box; */
+    overflow: hidden;
+}
+
+
+
+/* BACKGROUND */
+
+.background-img-section5 {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.box1-section5-background {
+    position: relative;
+    bottom: 0px;
+}
+
+.box2-section5-background {
+    position: relative;
+    bottom: 160px;
+}
+
+.box3-section5-background {
+    position: relative;
+    bottom: 240px;
+}
+
+.box4-section5-background {
+    position: relative;
+    bottom: 34px;
+}
+
+.background-img1 {
+    background-image: url(../assets/3-1.jpg);
+    background-size: cover;
+    width: 236px;
+    height: 350px;
+    margin: 16px 8px;
+    border-radius: 12px;
+}
+.background-img2 {
+    background-image: url(../assets/3-2.jpg);
+    background-size: cover;
+    width: 236px;
+    height: 350px;
+    margin: 16px 8px;
+    border-radius: 12px;
+}
+.background-img3 {
+    background-image: url(../assets/3-3.jpg);
+    background-size: cover;
+    width: 236px;
+    height: 350px;
+    margin: 16px 8px;
+    border-radius: 12px;
+}
+.background-img4 {
+    background-image: url(../assets/3-4.jpg);
+    background-size: cover;
+    width: 236px;
+    height: 350px;
+    margin: 16px 8px;
+    border-radius: 12px;
+}
+.background-img5 {
+    background-image: url(../assets/3-5.jpg);
+    background-size: cover;
+    width: 236px;
+    height: 350px;
+    margin: 16px 8px;
+    border-radius: 12px;
+}
+.background-img6 {
+    background-image: url(../assets/3-6.jpg);
+    background-size: cover;
+    width: 236px;
+    height: 350px;
+    margin: 16px 8px;
+    border-radius: 12px;
+}
+.background-img7 {
+    background-image: url(../assets/3-7.jpg);
+    background-size: cover;
+    width: 236px;
+    height: 350px;
+    margin: 16px 8px;
+    border-radius: 12px;
+}
+.background-img8 {
+    background-image: url(../assets/3-8.jpg);
+    background-size: cover;
+    width: 236px;
+    height: 350px;
+    margin: 16px 8px;
+    border-radius: 12px;
+}
+.background-img9 {
+    background-image: url(../assets/3-9.jpg);
+    background-size: cover;
+    width: 236px;
+    height: 350px;
+    margin: 16px 8px;
+    border-radius: 12px;
+}
+.background-img10 {
+    background-image: url(../assets/3-10.jpg);
+    background-size: cover;
+    width: 236px;
+    height: 350px;
+    margin: 16px 8px;
+    border-radius: 12px;
+}
+.background-img11 {
+    background-image: url(../assets/3-11.jpg);
+    background-size: cover;
+    width: 236px;
+    height: 350px;
+    margin: 16px 8px;
+    border-radius: 12px;
+}
+.background-img12 {
+    background-image: url(../assets/3-12.jpg);
+    background-size: cover;
+    width: 236px;
+    height: 350px;
+    margin: 16px 8px;
+    border-radius: 12px;
+}
+.background-img13 {
+    background-image: url(../assets/3-13.jpg);
+    background-size: cover;
+    width: 236px;
+    height: 350px;
+    margin: 16px 8px;
+    border-radius: 12px;
+}
+.background-img14 {
+    background-image: url(../assets/3-14.jpg);
+    background-size: cover;
+    width: 236px;
+    height: 350px;
+    margin: 16px 8px;
+    border-radius: 12px;
+}
+.background-img15 {
+    background-image: url(../assets/3-15.jpg);
+    background-size: cover;
+    width: 236px;
+    height: 350px;
+    margin: 16px 8px;
+    border-radius: 12px;
+}
+.background-img16 {
+    background-image: url(../assets/3-16.jpg);
+    background-size: cover;
+    width: 236px;
+    height: 350px;
+    margin: 16px 8px;
+    border-radius: 12px;
+}
+.background-img17 {
+    background-image: url(../assets/3-17.jpg);
+    background-size: cover;
+    width: 236px;
+    height: 350px;
+    margin: 16px 8px;
+    border-radius: 12px;
+}
+.background-img18 {
+    background-image: url(../assets/3-18.jpg);
+    background-size: cover;
+    width: 236px;
+    height: 350px;
+    margin: 16px 8px;
+    border-radius: 12px;
+}
+.background-img19 {
+    background-image: url(../assets/3-19.jpg);
+    background-size: cover;
+    width: 236px;
+    height: 350px;
+    margin: 16px 8px;
+    border-radius: 12px;
+}
+.background-img20 {
+    background-image: url(../assets/3-20.jpg);
+    background-size: cover;
+    width: 236px;
+    height: 350px;
+    margin: 16px 8px;
+    border-radius: 12px;
+}
+.background-img21 {
+    background-image: url(../assets/3-21.jpg);
+    background-size: cover;
+    width: 236px;
+    height: 350px;
+    margin: 16px 8px;
+    border-radius: 12px;
+}
+
+
+/* FRONT  Layer*/
