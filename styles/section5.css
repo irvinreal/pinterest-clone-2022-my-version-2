@@ -2,8 +2,48 @@
   max-height: 100vh;
   overflow: hidden;
 }
-/* ---------------- front layer ----------- */
-/* ---------------- ----------- ----------- */
+
+/* - Layer: grid images ( background ) */
+.section5-backgroundLayer-images {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110vw;
+  height: 100vh;
+  overflow: hidden;
+  gap: 1rem;
+}
+.section5-backgroundLayer-col-even {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+  top: 5rem;
+}
+
+.section5-backgroundLayer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.backgroundLayer-img {
+  width: 236px;
+  height: 350px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.backgroundLayer-img img {
+  width: auto;
+  height: 100%; 
+}
+
+/* - Layer: form ( front ) */
 .section5-frontLayer {
   position: relative;
   z-index: 100;
