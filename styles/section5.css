@@ -40,7 +40,7 @@
 
 .backgroundLayer-img img {
   width: auto;
-  height: 100%; 
+  height: 100%;
 }
 
 /* - Layer: form ( front ) */
@@ -154,7 +154,7 @@
   margin-top: 10px;
   width: 268px;
   height: 40px;
-  background-color: #E60023;
+  background-color: #e60023;
   color: #fff;
   font-weight: 700;
   font-size: 15px;
@@ -170,7 +170,7 @@
   color: #fff;
   font-weight: 700;
   font-size: 16px;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   border-style: none;
   border-radius: 25px;
   display: flex;
@@ -185,7 +185,8 @@
   margin: 8px;
 }
 
-.formulario footer p, a {
+.formulario footer p,
+a {
   width: 256.7px;
   font-size: 11px;
   font-weight: 400;
@@ -194,8 +195,23 @@
   margin-top: 10px;
 }
 
-.formulario footer strong, a {
+.formulario footer strong,
+a {
   color: black;
   text-decoration: none;
   font-weight: 700;
+}
+
+@media (max-width: 660px) {
+  .section5-backgroundLayer-images {
+    display: none;
+  }
+  .section5-frontLayer-left {
+    display: none;
+  }
+
+  .formulario {
+    border-radius: 0;
+    padding-top: 0px;
+  }
 }

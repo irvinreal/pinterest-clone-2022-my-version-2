@@ -33,12 +33,12 @@
 }
 
 .section4-boxLeft-description h2 {
-    position: absolute;
-    bottom: 125px;
-    left: 158px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500;
+  position: absolute;
+  bottom: 125px;
+  left: 158px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .section4-boxLeft-description p {
@@ -63,7 +63,7 @@
 
 .section4-boxRight h2 {
   position: relative;
-  color: #C32F00;
+  color: #c32f00;
   font-size: 60px;
   font-weight: bold;
   width: 420px;
@@ -72,7 +72,7 @@
 }
 
 .section4-boxRight p {
-  color: #C32F00;
+  color: #c32f00;
   font-size: 24px;
   font-weight: 400;
   width: 420px;
@@ -84,7 +84,7 @@
   color: rgb(255, 226, 235);
   font-size: 16px;
   font-weight: bold;
-  background-color: #C32F00;
+  background-color: #c32f00;
   border: none;
   border-radius: 25px;
   width: 93px;
@@ -94,4 +94,42 @@
 .section4-boxRight button:hover {
   background-color: #e73b07;
   cursor: pointer;
+}
+
+@media (max-width: 660px) {
+  .section4-boxLeft > img {
+    display: none;
+  }
+
+  .section4-boxRight {
+    position: absolute;
+    bottom: 10px;
+  }
+
+  .section4-boxRight p,
+  h2 {
+    display: none;
+  }
+
+  .section4-boxRight button {
+    position: absolute;
+    bottom: 50px;
+    height: 35px;
+    width: 150px;
+  }
+
+  .section4-boxLeft-description {
+    position: absolute;
+    bottom: 42px;
+    left: 10px;
+    z-index: 110;
+  }
+
+  .section4-boxLeft-description h2 {
+    color: #4e4e4e;
+  }
+
+  .section4-boxLeft-description p {
+    color: #4e4e4e;
+  }
 }

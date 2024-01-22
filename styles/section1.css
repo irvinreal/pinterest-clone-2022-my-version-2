@@ -96,3 +96,25 @@
   font-size: 60px;
   color: rgb(8, 93, 250);
 }
+
+@media (max-width: 960px) {
+  .title1 h1 {
+    font-size: 50px;
+  }
+  .title2 h2 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 610px) {
+  .titles {
+    padding: 0 20px;
+  }
+
+  .title1 h1 {
+    font-size: 36px;
+  }
+  .title2 h2 {
+    font-size: 22px;
+  }
+}
